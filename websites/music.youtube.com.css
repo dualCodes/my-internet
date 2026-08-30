@@ -25,9 +25,17 @@ ytmusic-nav-bar:hover {
   opacity: 1 !important;
 }
 
-ytmusic-app[is-bauhaus-sidenav-enabled] #guide-wrapper.ytmusic-app {
+ytmusic-app[is-bauhaus-sidenav-enabled] #guide-wrapper.ytmusic-app,
+tp-yt-app-drawer,
+tp-yt-app-drawer #header,
+tp-yt-app-drawer #guide-wrapper,
+#guide-wrapper .ytmusic-guide-renderer,
+#guide-inner-list {
   background-color: transparent !important;
+  background: transparent !important;
+  border-right: none !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 /* Hide elements */
